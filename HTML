@@ -1,0 +1,26 @@
+ <!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>BichoPrev - Previsão do Jogo do Bicho</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🐾 BichoPrev</h1>
+    <p>Simule a previsão do próximo bicho com base nos últimos resultados!</p>
+
+    <label>Digite os 3 últimos resultados:</label><br>
+    <input type="text" id="result1" placeholder="Ex: 8732">
+    <input type="text" id="result2" placeholder="Ex: 1144">
+    <input type="text" id="result3" placeholder="Ex: 2355"><br>
+
+    <button onclick="preverBicho()">Prever Próximo Bicho</button>
+    <button onclick="limparCampos()">Limpar</button>
+
+    <h2 id="resultado"></h2>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
